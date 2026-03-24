@@ -1,0 +1,11 @@
+# === Standard library ===
+import os
+import json
+import math
+
+# === Third-party ===
+import requests
+from shapely.geometry import Point, LineString, box, mapping
+from shapely.ops import linemerge, polygonize, unary_union
+from shapely.prepared import prep
+from shapely.strtree import STRtree
